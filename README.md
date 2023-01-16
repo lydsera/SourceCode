@@ -28,7 +28,7 @@
 
 指令(2)拆解：  
 `./bench.sh SVF_BIN NUM_RUNS TIME_LIMIT MEM_LIMIT BITCODE...`  
-SVF_BIN默认$HOME/svf/base-build/bin/wpa即可  
+SVF_BIN默认 \$HOME/svf/base-build/bin/wpa 即可  
 NUM_RUNS为执行分析的轮次  
 TIME_LIMIT为运行时间限制，以小时为单位，超出时间会跑出OOT(超时)的结果  
 MEM_LIMIT为内存限制，以GB为单位，超出时间会跑出OOM(超内存)的结果  
@@ -38,4 +38,4 @@ BITCODE...为要运行的文件列表，如我要跑dhcpcd.bc和gawk.bc文件，
 因为我们仅使用了15GB内存，所以很多结果OOM了，如下：  
 ![5](img/my_table_4_5.jpg)  
 ![6](img/my_table_6_7.jpg)  
-论文使用了100GB的机器，所以能跑出来的结果更多。  
+原论文使用了100GB的机器，所以能跑出来的结果更多。  
