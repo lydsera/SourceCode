@@ -12,7 +12,7 @@
 
 ## 如何运行
 
-1.到原文地址下载文件 compacting-points-to-sets.tar.gz  
+1.到[原文地址](https://zenodo.org/record/5507442#.Y_SOJzNBzJx)下载文件 compacting-points-to-sets.tar.gz  
 2.使用docker运行，在文件目录下打开终端，先后运行如下指令  
 (1) `docker load < compacting-points-to-sets.tar.gz`  
 (2) `docker run -it compacting-points-to-sets bash`  
